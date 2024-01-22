@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
     Animator animator;
+    public int rockplanks = 0;
 
     private void Start()
     {
