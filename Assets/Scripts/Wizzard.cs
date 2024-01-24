@@ -5,7 +5,6 @@ using UnityEngine;
 public class Wizzard : MonoBehaviour
 {
     public GameObject UINoRocks;
-    public float displayTime = 4f;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,8 +16,8 @@ public class Wizzard : MonoBehaviour
         }
         else
         {
-            GameObject uIBearInstance = Instantiate(UINoRocks, transform.position, Quaternion.identity);
-            Destroy(uIBearInstance, displayTime);
+            GameObject uINoRockInstance = Instantiate(UINoRocks, transform.position, Quaternion.identity);
+            Destroy(uINoRockInstance, 7f);
         }
     }
     void Start()

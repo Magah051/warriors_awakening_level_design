@@ -3,12 +3,12 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class TypeTextAnimation : MonoBehaviour
+public class Board1Text : MonoBehaviour
 {
 
     public float typeDelay = 0.05f;
     public TextMeshProUGUI textObject;
-    string fullText = "Hello Aric! You need to find the 8 tablets of knowledge. They will give you what you need to start your journey.";
+    string fullText = "Bfdsfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsadfsadfsadfasdf";
 
     void Start()
     {
