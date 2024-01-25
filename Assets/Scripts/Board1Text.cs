@@ -8,7 +8,7 @@ public class Board1Text : MonoBehaviour
 
     public float typeDelay = 0.05f;
     public TextMeshProUGUI textObject;
-    string fullText = "Bfdsfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsadfsadfsadfasdf";
+    string fullText = "On the path of courage, true warriors are forged.";
 
     void Start()
     {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FxTemporaire
   - Wizzard
+  - Board
   layers:
   - Default
   - TransparentFX

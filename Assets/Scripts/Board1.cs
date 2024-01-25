@@ -6,7 +6,7 @@ public class Board1 : MonoBehaviour
 {
     public GameObject board1;
 
-    //public AudioClip coinSound;
+    public AudioClip boardSound;
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -15,11 +15,11 @@ public class Board1 : MonoBehaviour
             GameObject boardInstance1 = Instantiate(board1, transform.position, Quaternion.identity);
             Destroy(boardInstance1, 7f);
             Destroy(gameObject, 7f);
-            //GameObject soundObject = new GameObject("CollisionSound");
-            //AudioSource audioSource = soundObject.AddComponent<AudioSource>();
-            //audioSource.clip = coinSound;
-            //audioSource.Play();
-            //Destroy(soundObject, coinSound.length);
+            GameObject soundObject = new GameObject("CollisionSound");
+            AudioSource audioSource = soundObject.AddComponent<AudioSource>();
+            audioSource.clip = boardSound;
+            audioSource.Play();
+            Destroy(soundObject, boardSound.length);
 
         }
 
