@@ -17,6 +17,16 @@ public class PlayerMovement : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Board"))
+        {
+            rockplanks++;
+            Debug.Log(rockplanks);
+        }
+    }
+
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");

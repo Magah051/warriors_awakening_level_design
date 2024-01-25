@@ -3,12 +3,12 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class TypeTextAnimation : MonoBehaviour
+public class Board4Text : MonoBehaviour
 {
 
     public float typeDelay = 0.05f;
     public TextMeshProUGUI textObject;
-    string fullText = "Hello Aric! You need to find the 8 tables of knowledge. They will give you what you need to start your journey.";
+    string fullText = "In battles and in life, patience is the ally that never fails.";
 
     void Start()
     {

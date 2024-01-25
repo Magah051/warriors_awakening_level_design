@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Board1 : MonoBehaviour
+public class Boards : MonoBehaviour
 {
     public GameObject board1;
 

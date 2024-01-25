@@ -1167,6 +1167,7 @@ GameObject:
   - component: {fileID: 137991451}
   - component: {fileID: 137991450}
   - component: {fileID: 137991449}
+  - component: {fileID: 137991452}
   m_Layer: 0
   m_Name: Board8
   m_TagString: Board
@@ -1286,6 +1287,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137991452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137991448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: 91dfc455f2027f244b7ad6971f9784cb, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!1 &243987325
 GameObject:
   m_ObjectHideFlags: 0
@@ -12618,6 +12633,7 @@ GameObject:
   - component: {fileID: 1035661495}
   - component: {fileID: 1035661494}
   - component: {fileID: 1035661493}
+  - component: {fileID: 1035661496}
   m_Layer: 0
   m_Name: Board4
   m_TagString: Board
@@ -12737,6 +12753,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1035661496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035661492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: b681c52837981194b93a7ec5214b87b1, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!1 &1068097900
 GameObject:
   m_ObjectHideFlags: 0
@@ -17856,6 +17886,7 @@ GameObject:
   - component: {fileID: 1086363214}
   - component: {fileID: 1086363213}
   - component: {fileID: 1086363212}
+  - component: {fileID: 1086363215}
   m_Layer: 0
   m_Name: Board5
   m_TagString: Board
@@ -17975,6 +18006,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086363215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086363211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: 6c8449279907abb44b732965096ebc32, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!1 &1092913181
 GameObject:
   m_ObjectHideFlags: 0
@@ -18150,6 +18195,7 @@ GameObject:
   - component: {fileID: 1179968990}
   - component: {fileID: 1179968989}
   - component: {fileID: 1179968988}
+  - component: {fileID: 1179968991}
   m_Layer: 0
   m_Name: Board6
   m_TagString: Board
@@ -18269,6 +18315,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179968991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179968987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: 040e49811efdafe4e91d0cb0a0476fd6, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!224 &1188691213 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6789629758612767804, guid: 3849c92566c029b429c4d7188e17f2b1, type: 3}
@@ -18389,6 +18449,7 @@ GameObject:
   - component: {fileID: 1294245864}
   - component: {fileID: 1294245863}
   - component: {fileID: 1294245862}
+  - component: {fileID: 1294245865}
   m_Layer: 0
   m_Name: Board2
   m_TagString: Board
@@ -18508,6 +18569,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1294245865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294245861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: 58765252b37252d41a00e2f448690eb6, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!1 &1296418817
 GameObject:
   m_ObjectHideFlags: 0
@@ -23942,6 +24017,7 @@ GameObject:
   - component: {fileID: 1572979148}
   - component: {fileID: 1572979147}
   - component: {fileID: 1572979146}
+  - component: {fileID: 1572979149}
   m_Layer: 0
   m_Name: Board3
   m_TagString: Board
@@ -24061,6 +24137,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1572979149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572979145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: f991ccc78dd0b7c4dbbe408753cce769, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!1 &1598139571
 GameObject:
   m_ObjectHideFlags: 0
@@ -28627,6 +28717,7 @@ GameObject:
   - component: {fileID: 1739514648}
   - component: {fileID: 1739514647}
   - component: {fileID: 1739514646}
+  - component: {fileID: 1739514649}
   m_Layer: 0
   m_Name: Board7
   m_TagString: Board
@@ -28746,6 +28837,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1739514649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739514645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c35eeb810fb6743a142011ff7725ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board1: {fileID: 3745439966952590036, guid: c5c7bc6c1889cd149ae8bb3eb88576fa, type: 3}
+  boardSound: {fileID: 8300000, guid: f2a8df93c514a0c4eb4a25f15ae5d5c3, type: 3}
 --- !u!1 &1748771065
 GameObject:
   m_ObjectHideFlags: 0
