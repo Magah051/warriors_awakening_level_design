@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Animator animator;
     public int rockplanks = 0;
+    public Text rockplankUI;
 
     private void Start()
     {
@@ -23,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Board"))
         {
             rockplanks++;
-            Debug.Log(rockplanks);
         }
     }
 
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+        rockplankUI.text = rockplanks.ToString();
     }
 
     void FixedUpdate()
