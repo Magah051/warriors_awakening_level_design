@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Board"))
         {
             rockplanks++;
+            Debug.Log(rockplanks);
         }
     }
 

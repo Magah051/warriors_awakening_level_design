@@ -11,8 +11,6 @@ public class Boards : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameObject objetoAtual = gameObject;
-            objetoAtual.tag = "Table";
 
             GameObject boardInstance1 = Instantiate(board1, transform.position, Quaternion.identity);
             Destroy(boardInstance1, 7f);
